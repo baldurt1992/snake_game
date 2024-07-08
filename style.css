@@ -1,0 +1,48 @@
+body {
+    display: grid;
+
+    place-items: center;
+    grid-template-columns: 1.1fr 2fr;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 2rem;
+}
+
+.nes-btn {
+    margin-top: 1rem;
+}
+
+.canvas-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1rem;
+}
+
+.lists li {
+    margin-top: 1rem;
+}
+
+.nes-list.is-circle li::before {
+    color: #F7D51D;
+}
+
+.arrow {
+    color: #F7D51D;
+}
+
+.btn-res-info {
+    font-size: 0.5rem;
+    padding: 5px 10px;
+}

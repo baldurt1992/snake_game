@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" , content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game with GFG</title>
+    <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="lists">
+      <h1 class="nes-text is-warning">Snake Game</h1>
+      <p>Make the snake grow as much as you can!</p>
+      <ul class="nes-list is-circle">
+        <li>
+          Press <span class="arrow">&#9650;</span>
+          <span class="arrow">&#9660;</span> <span class="arrow">&#9658;</span>
+          <span class="arrow">&#9668;</span> to start playing.
+        </li>
+        <li>Catch the red dots to make the snake grow.</li>
+        <li>Avoid hitting the walls.</li>
+        <li>Avoid colliding with yourself.</li>
+        <li>
+          Press
+          <button disabled class="nes-btn is-warning btn-res-info">
+            Restart
+          </button>
+          to play again.
+        </li>
+        <li>
+          <img src="/img/apple.png" alt="apple" width="25px" height="auto" />
+          give 1 point.
+        </li>
+        <li>
+          <img src="/img/burger.png" alt="burger" width="25px" height="auto" />
+          give 3 points.
+        </li>
+      </ul>
+    </div>
+
+    <div class="canvas-container">
+      <h2 id="score">Score:</h2>
+      <canvas id="board" class="nes-container is-rounded is-dark"> </canvas>
+      <button class="nes-btn is-warning" id="restart">Restart</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
