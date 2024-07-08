@@ -24,21 +24,21 @@ const food = {
   apple: new Image(),
   burger: new Image(),
 };
-food.apple.src = "/img/apple.png";
-food.burger.src = "/img/burger.png";
+food.apple.src = "img/apple.png";
+food.burger.src = "img/burger.png";
 
 const snake_bodyImage = new Image();
-snake_bodyImage.src = "/img/boby.png";
+snake_bodyImage.src = "img/boby.png";
 const snake_head_images = {
   up: new Image(),
   down: new Image(),
   left: new Image(),
   right: new Image(),
 };
-snake_head_images.up.src = "/img/up.png";
-snake_head_images.down.src = "/img/down.png";
-snake_head_images.left.src = "/img/left.png";
-snake_head_images.right.src = "/img/right.png";
+snake_head_images.up.src = "img/up.png";
+snake_head_images.down.src = "img/down.png";
+snake_head_images.left.src = "img/left.png";
+snake_head_images.right.src = "img/right.png";
 
 let burger_timer = 0;
 const burger_timeout = 12 * 1000;
