@@ -35,6 +35,7 @@ const snake_head_images = {
   left: new Image(),
   right: new Image(),
 };
+
 snake_head_images.up.src = "img/up.png";
 snake_head_images.down.src = "img/down.png";
 snake_head_images.left.src = "img/left.png";
