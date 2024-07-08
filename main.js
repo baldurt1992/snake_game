@@ -24,7 +24,7 @@ const food = {
   apple: new Image(),
   burger: new Image(),
 };
-food.apple.src = "img/apple.png";
+food.apple.src = "./img/apple.png";
 food.burger.src = "img/burger.png";
 
 const snake_bodyImage = new Image();
